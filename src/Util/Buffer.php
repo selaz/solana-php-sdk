@@ -200,7 +200,7 @@ class Buffer implements Countable
      * @return int|void
      * @throws InputValidationException
      */
-    public function count()
+    public function count(): int
     {
         return sizeof($this->toArray());
     }
